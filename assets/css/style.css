@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Boxicon";
+    src: url(../fonts/boxicons.ttf);
+  }
+  
+  @font-face {
+    font-family: "Bootstrap-icons";
+    src: url(../fonts/bootstrap-icons.woff);
+  }
+  @font-face {
+    font-family: "tt-commons";
+    src: url(../fonts/TT\ Commons\ Regular.otf);
+  }
+body {
+    font-family: tt-commons;
+    background-color: #1935aa;
+    background-image: url(../img/Vector\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* or scroll, depending on your desired behavior  */
+    height: 100%;
+    width: 100%;
+   
+  }
+  
+
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover, a:active{
+    color: #1935aa !important;
+  }
+
+  .para{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .para::before,.para::after{
+    content: "";
+    height: 2px;
+    width: 180px;
+    margin:0px 15px;
+    background-color: #ccc;
+  }
+
+  i:hover{
+    cursor: pointer !important;
+  }
+
+@media screen and (max-width: 1000px) {
+    .barrr{
+        border-radius: 0 !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .card{
+        width: 100% !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        height: 93vh !important;
+    
+    }
+
+    .container{
+        padding: 10px 6px !important;
+    }
+
+} 
+
